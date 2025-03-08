@@ -114,11 +114,39 @@ if x <= y :
 else :
     print ("x is not less than or eqaul to y")
 
-#/ Logical Operatores 
+#/ Bitwise Operatores 
 #/ And (&)
+
+a = 5  #  Binary:  0101
+b = 3  #  Binary:  0011
+result = a & b  #  Result: 0001 (1 in decimal)
+print(result)  # Output: 1
+
 #/ Or (|)
+
+result = a | b  # Result: 0111 (7 in decimal)
+print(result)  # Output: 7
+
 #/ Xor (^)
+
+result = a ^ b  # Result: 0110 (6 in decimal)
+print(result)  # Output: 6
+
+
 #/ Not (~)
+
+result = ~a  # -6 (because Python uses two’s complement)
+print(result)  # Output: -6
+
+
 #/ Left Shift (<<)
+
+result = a << 1 # Binary: 0010 (2 in decimal)
+print(result)  # Output: 10
+
+
 #/ Right Shift (>>)
+
+result = a >> 1  # Binary: 0010 (2 in decimal)
+print(result)  # Output: 2
 
